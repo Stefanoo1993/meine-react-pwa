@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://github.com/Stefanoo1993/meine-react-pwa/sw.js', { scope: 'https://github.com/Stefanoo1993/meine-react-pwa/' })})}
